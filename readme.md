@@ -1,6 +1,11 @@
 # Elasticsearch Demo
 ![Build Maven](https://github.com/spring-petclinic/spring-petclinic-data-jdbc/workflows/Build%20Maven/badge.svg)
 
+git pull --rebase origin main
+git add .
+git rebase --continue
+git push --force-with-lease
+
 
 This is a branch of the official [Spring PetClinic](https://github.com/spring-projects/spring-petclinic) application with domain & persistence layer built with [Spring Data JDBC](https://projects.spring.io/spring-data-jdbc/) instead of [Spring Data JPA](https://projects.spring.io/spring-data-jpa/).
 
